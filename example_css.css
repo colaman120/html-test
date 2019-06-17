@@ -37,6 +37,15 @@ body {
  padding-left: 20px;
 }
 
+/* header buttons*/
+.button-header {
+  float: right;
+  width: 5%;
+  padding-right: 5px;
+  font-size: 14px;
+  text-align: right;
+}
+
 /* Fake image */
 .fakeimg {
  background-color: #aaa;
@@ -73,4 +82,13 @@ make the two columns stack on top of each other instead of next to each other */
    width: 100%;
    padding: 0;
  }
+}
+
+a:link, a:visited {
+  background-color: none;
+  color: black;
+  padding: 10px 10px;
+  text-align: justify;
+  text-decoration: none;
+  display:inline-block;
 }
